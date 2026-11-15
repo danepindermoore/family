@@ -17,7 +17,18 @@
     {"id":"teddy","name":"Teddy","type":"child","gender":"male","guardians":["jade"],"birthday":{"day":12,"month":4}},
     {"id":"tallulah","name":"Tallulah","type":"child","gender":"female","guardians":["jade"],"birthday":{"day":12,"month":4}},
     {"id":"jake","name":"Jake","type":"child","gender":"male","guardians":["mandy-willis"]},
-    {"id":"lyla","name":"Lyla","type":"child","gender":"female","guardians":["mandy-willis"]}
+    {"id":"lyla","name":"Lyla","type":"child","gender":"female","guardians":["mandy-willis"]}    ,{"id":"tina","name":"Tina","type":"female"}
+    ,{"id":"lee","name":"Lee","type":"male"}
+    ,{"id":"samantha","name":"Samantha","type":"female"}
+    ,{"id":"dayna","name":"Dayna","type":"female"}
+    ,{"id":"paul","name":"Paul","type":"male"}
+    ,{"id":"ronnie","name":"Ronnie","type":"child","gender":"male","guardians":["lee","dayna"]}
+    ,{"id":"elsie","name":"Elsie","type":"child","gender":"female","guardians":["lee","dayna"]}
+    ,{"id":"lillie","name":"Lillie","type":"child","gender":"female","guardians":["samantha","paul"]}
+    ,{"id":"jensen","name":"Jensen","type":"child","gender":"male","guardians":["samantha","paul"]}
+    ,{"id":"franklin","name":"Franklin","type":"child","gender":"male","guardians":["samantha","paul"]}
+    ,{"id":"brendan","name":"Brendan","type":"child","gender":"male","guardians":["samantha","paul"]}
+    ,{"id":"blake","name":"Blake","type":"child","gender":"male","guardians":["samantha","paul"]}
   ],
   "celebrations": [
     {"id":"christmas-day","name":"Christmas Day","rule":{"type":"fixed","month":12,"day":25}},
