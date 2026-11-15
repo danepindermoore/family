@@ -42,3 +42,25 @@
 .calendar-add:hover{border-color:var(--accent);color:var(--accent);background:var(--cream)}
 #family-tree{scroll-margin-top:105px}
 @media(max-width:700px){.celebration-columns{grid-template-columns:1fr;gap:20px}.celebrations-panel{padding:20px}.celebrations-summary{align-items:flex-start}.celebrations-summary .section-head{align-items:flex-start;flex-direction:column;gap:8px}.celebrations-summary .section-head .pill{font-size:11px}.collapse-indicator{flex:0 0 30px;width:30px;height:30px}}
+
+/* Make the calendar disclosure obvious and default to a compact tree on phones */
+.celebrations-summary{cursor:pointer}
+.celebrations-summary:focus-visible{outline:3px solid #d7a89e;outline-offset:3px;border-radius:10px}
+.collapse-indicator{display:inline-flex;align-items:center;justify-content:center;gap:9px;flex:0 0 auto;width:auto;height:40px;padding:0 14px;border:1px solid #a65f50;border-radius:999px;background:#bd7767;color:#fff;font-size:12px;font-weight:700;white-space:nowrap;box-shadow:0 2px 6px rgba(54,45,36,.12)}
+.collapse-symbol{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:rgba(255,255,255,.2);font-size:17px;line-height:1}
+.collapse-symbol::before{content:"+"}
+.hide-calendar-label{display:none}
+.celebrations-panel[open] .show-calendar-label{display:none}
+.celebrations-panel[open] .hide-calendar-label{display:inline}
+.celebrations-panel[open] .collapse-symbol::before{content:"−"}
+@media(max-width:600px){
+  .tree-canvas-inner{width:540px;min-width:540px;margin-inline:auto;padding:14px 6px 22px}
+  .tree-grid{grid-template-columns:repeat(8,minmax(0,1fr))}
+  .tree-grid+.tree-grid{margin-top:70px}
+  .tree-canvas .tree-person{width:69px;flex-basis:69px;gap:6px;padding:4px 2px 6px;transform:translateX(var(--shift-mobile,var(--shift,0px)))}
+  .tree-canvas .portrait{width:57px;height:57px;font-size:22px}
+  .tree-canvas .tree-name{font-size:9px}
+  .tree-canvas .tree-connector{stroke-width:1.5}
+  .collapse-indicator{align-self:center;min-height:38px;height:38px;padding:0 12px}
+}
+.celebrations-panel[open] .collapse-indicator{transform:none}

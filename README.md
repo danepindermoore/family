@@ -18,7 +18,7 @@ The website opens without a password. GitHub Pages is public, and anyone can acc
 
 ## How updates work
 
-- A family member opens **Submit an update**, selects a person, enters whichever fields have changed, and clicks **Prepare email update**.
+- A family member selects their profile, reviews the pre-filled details, makes changes, and clicks **Send updates via email**.
 - Their device's default email application opens a **draft**. They must press **Send**. The website itself cannot reliably deliver email or track submission status.
 - You review the message, then update `data/family.json` manually in a text editor and push the change to GitHub.
 - Never copy `privateAddress` or any `year` fields from email into `data/family.json`. The public schema only needs birthday `{ "day": 12, "month": 6 }` and events `{ "day": 5, "month": 8, "type": "anniversary", "with": ["mark"] }`.
