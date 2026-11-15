@@ -87,3 +87,9 @@
   .tree-canvas-inner{width:100%;min-width:0;max-width:510px;margin-inline:auto;padding:0}
   .tree-panel{padding:0}
 }
+/* Keep the profile return control visible above the profile on every screen size. */
+#view-profile>.profile-back-link{position:sticky;top:calc(64px + 10px);z-index:30;display:inline-flex;align-items:center;justify-content:center;width:max-content;min-height:44px;margin:0 0 12px;padding:10px 16px;border:0;border-radius:24px;background:#2f2f2f;color:#ebeaea;text-decoration:none;box-shadow:0 5px 16px rgba(0,0,0,.16)}
+#view-profile>.profile-back-link:hover,#view-profile>.profile-back-link:focus-visible{background:#ebeaea;color:#2f2f2f}
+@media(max-width:600px){#view-profile>.profile-back-link{top:calc(58px + 8px);margin-left:0}}
+:root[data-theme="dark"] #view-profile>.profile-back-link{background:#ebeaea;color:#2f2f2f}
+:root[data-theme="dark"] #view-profile>.profile-back-link:hover{background:#2f2f2f;color:#ebeaea}

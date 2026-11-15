@@ -4,7 +4,7 @@
     {"id":"tony","name":"Tony","type":"male","birthday":{"day":31,"month":7}},
     {"id":"rebekah","name":"Rebekah","type":"female","birthday":{"day":13,"month":6}},
     {"id":"mark","name":"Mark","type":"male","birthday":{"day":10,"month":3}},
-    {"id":"dane","name":"Dane","type":"male","birthday":{"day":15,"month":5}},
+    {"id":"dane","name":"Dane","type":"male","birthday":{"day":15,"month":5},"sizes":{"tops":"XS","length":"30 in","waist":"28 in","footwear":"UK 8.5 / EU 42.5"},"notes":"Black colours\nNext\nGymshark\nNike"},
     {"id":"gary","name":"Gary","type":"male","birthday":{"day":30,"month":4}},
     {"id":"caz","name":"Caroline","type":"female","birthday":{"day":10,"month":5}},
     {"id":"alfie","name":"Alfie","type":"child","gender":"male","guardians":["mark","rebekah"],"birthday":{"day":10,"month":9}},
