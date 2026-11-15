@@ -12,11 +12,9 @@ A mobile-friendly family clothing-size directory with 18 starter profiles, nickn
 
 **Use a local web server for testing.** Opening `index.html` directly with `file://` won't load JSON in some browsers. Run `python -m http.server 8000` from this folder and visit `http://localhost:8000` if Python is available.
 
-## Existing welcome password
+## Access and privacy
 
-The initial welcome password is `F4m1?y`. It is checked **in browser JavaScript**; someone can bypass it and access `data/family.json` directly. **This is not real security.** Do not upload or display private addresses or birth years anywhere in the repository, even if the repository itself is private. Normal GitHub Pages is a publicly accessible static website.
-
-If you later want the entire directory to be private, use authenticated hosting/storage rather than trying to conceal a password inside static files.
+The website opens without a password. GitHub Pages is public, and anyone can access the site files and `data/family.json`. Do not add private addresses or birth years to the repository. Use authenticated hosting and storage if the directory needs to be private.
 
 ## How updates work
 
