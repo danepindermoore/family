@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="iris-title">
+  <title id="iris-title">evryone Iris mark</title>
+  <g>
+    <rect fill="#FF9B32" x="-47" y="-481" width="94" height="126" transform="translate(600 600) rotate(0)"/>
+    <rect fill="#00C9E8" x="-31" y="-477" width="62" height="112" transform="translate(600 600) rotate(11.25)"/>
+    <rect fill="#FF4E9B" x="-72" y="-487" width="144" height="132" transform="translate(600 600) rotate(22.5)"/>
+    <rect fill="#B8ED38" x="-39" y="-456" width="78" height="101" transform="translate(600 600) rotate(33.75)"/>
+    <rect fill="#EBEAEA" x="-25" y="-436" width="50" height="81" transform="translate(600 600) rotate(45)"/>
+    <rect fill="#2F2F2F" x="-22" y="-425" width="44" height="70" transform="translate(600 600) rotate(56.25)"/>
+    <rect fill="#FF9B32" x="-36" y="-447" width="72" height="92" transform="translate(600 600) rotate(67.5)"/>
+    <rect fill="#00C9E8" x="-42" y="-459" width="84" height="94" transform="translate(600 600) rotate(78.75)"/>
+    <rect fill="#B8ED38" x="-32" y="-431" width="64" height="76" transform="translate(600 600) rotate(90)"/>
+    <rect fill="#FF4E9B" x="-30" y="-440" width="60" height="85" transform="translate(600 600) rotate(101.25)"/>
+    <rect fill="#00C9E8" x="-30" y="-437" width="60" height="82" transform="translate(600 600) rotate(112.5)"/>
+    <rect fill="#FF9B32" x="-43" y="-467" width="86" height="112" transform="translate(600 600) rotate(123.75)"/>
+    <rect fill="#2F2F2F" x="-28" y="-450" width="56" height="95" transform="translate(600 600) rotate(135)"/>
+    <rect fill="#B8ED38" x="-47" y="-478" width="94" height="123" transform="translate(600 600) rotate(146.25)"/>
+    <rect fill="#FF4E9B" x="-28" y="-447" width="56" height="92" transform="translate(600 600) rotate(157.5)"/>
+    <rect fill="#00C9E8" x="-42" y="-479" width="84" height="114" transform="translate(600 600) rotate(168.75)"/>
+    <rect fill="#FF9B32" x="-42" y="-456" width="84" height="101" transform="translate(600 600) rotate(180)"/>
+    <rect fill="#2F2F2F" x="-22" y="-429" width="44" height="74" transform="translate(600 600) rotate(191.25)"/>
+    <rect fill="#B8ED38" x="-35" y="-425" width="70" height="70" transform="translate(600 600) rotate(202.5)"/>
+    <rect fill="#FF9B32" x="-65" y="-490" width="130" height="135" transform="translate(600 600) rotate(213.75)"/>
+    <rect fill="#EBEAEA" x="-38" y="-465" width="76" height="110" transform="translate(600 600) rotate(225)"/>
+    <rect fill="#FF4E9B" x="-42" y="-471" width="84" height="116" transform="translate(600 600) rotate(236.25)"/>
+    <rect fill="#2F2F2F" x="-32" y="-461" width="64" height="106" transform="translate(600 600) rotate(247.5)"/>
+    <rect fill="#B8ED38" x="-52" y="-503" width="104" height="148" transform="translate(600 600) rotate(258.75)"/>
+    <rect fill="#00C9E8" x="-32" y="-456" width="64" height="101" transform="translate(600 600) rotate(270)"/>
+    <rect fill="#FF9B32" x="-32" y="-456" width="64" height="101" transform="translate(600 600) rotate(281.25)"/>
+    <rect fill="#FF4E9B" x="-30" y="-447" width="60" height="82" transform="translate(600 600) rotate(292.5)"/>
+    <rect fill="#2F2F2F" x="-24" y="-438" width="48" height="83" transform="translate(600 600) rotate(303.75)"/>
+    <rect fill="#EBEAEA" x="-26" y="-437" width="52" height="82" transform="translate(600 600) rotate(315)"/>
+    <rect fill="#00C9E8" x="-37" y="-476" width="74" height="110" transform="translate(600 600) rotate(326.25)"/>
+    <rect fill="#FF4E9B" x="-63" y="-494" width="126" height="139" transform="translate(600 600) rotate(337.5)"/>
+    <rect fill="#B8ED38" x="-29" y="-447" width="58" height="92" transform="translate(600 600) rotate(348.75)"/>
+  </g>
+</svg>

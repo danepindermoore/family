@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title"><title id="title">evryone Connections mark</title>
+  <g fill="none" stroke="#EBEAEA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 150 H390 M300 150 V290 M210 290 H390 M210 290 V430 M390 290 V430"/>
+  </g>
+  <g stroke="#EBEAEA" stroke-width="14">
+    <circle cx="210" cy="150" r="69" fill="#FF4E9B"/>
+    <circle cx="390" cy="150" r="69" fill="#00C9E8"/>
+    <circle cx="210" cy="430" r="69" fill="#B8ED38"/>
+    <circle cx="390" cy="430" r="69" fill="#FF9B32"/>
+  </g>
+  <circle cx="300" cy="290" r="20" fill="#EBEAEA"/>
+  <circle cx="300" cy="290" r="8" fill="#EBEAEA"/>
+</svg>
